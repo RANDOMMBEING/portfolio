@@ -19,6 +19,7 @@ body {
   left: 0;
   display: flex;
   justify-content: space-between;
+  z-index: 100;
 }
 .logo {
   color: mediumorchid;
@@ -135,7 +136,7 @@ body {
 .hover:hover {
   transform: scale(1.08);
   opacity: 0.6;
-
+  translate: -20%, 0%;
   border-radius: 35%;
 }
 .social-media a {
@@ -164,7 +165,6 @@ body {
 .container {
   background: black;
   padding: 15px 9%;
-  padding-bottom: 100px;
 }
 
 .container .heading {
@@ -233,7 +233,7 @@ body {
 
 .main-container {
   background: black;
-  padding: 25px 9%;
+  padding: 1rem 9%;
   padding-bottom: 100px;
 }
 
@@ -341,7 +341,7 @@ body {
   width: 100px;
 }
 
-.main-container-3 .card-container .card h3 {
+.main-container-2 .card-container .card h3 {
   font-size: 22px;
   padding: 10px 0;
 }
