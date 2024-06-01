@@ -164,7 +164,8 @@ body {
 
 .container {
   background: black;
-  padding: 15px 9%;
+  padding: 1rem 9%;
+  margin-bottom: 20px;
 }
 
 .container .heading {
@@ -178,7 +179,7 @@ body {
 .container .box-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1.5fr 1.5fr 1.5fr;
+  grid-template-rows: 1.5fr 1.5fr;
   gap: 15px;
 }
 .container .box-container .box {
@@ -314,7 +315,7 @@ body {
   color: white;
   text-shadow: 0 5px 10px rgba(0, 0, 0, 01.2rem);
   font-size: 50px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .main-container-2 .card-container {
@@ -367,7 +368,7 @@ body {
 }
 
 .preview {
-  background: linear-gradient(to right, #ae2896, #509bf5);
+  background: linear-gradient(to right, #509bf5, #ae2896);
   padding: 15px 40px;
   display: flex;
   justify-content: space-between;
@@ -399,10 +400,23 @@ body {
   border-radius: 40px;
   cursor: pointer;
   margin-top: 10px;
+  margin-right: 5px;
   transition: all inherit;
 }
 
 .preview button:hover {
-  background: linear-gradient(to right, #ae2896, #509bf5);
+  background: linear-gradient(to right, #509bf5, mediumorchid);
   color: white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: black;
+}
+::-webkit-scrollbar-thumb {
+  background: mediumorchid;
+  border-radius: 10px;
+  box-shadow: 5px 0px 0px 5px mediumorchid;
 }
