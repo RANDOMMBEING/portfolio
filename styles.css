@@ -420,3 +420,13 @@ body {
   border-radius: 10px;
   box-shadow: 5px 0px 0px 5px mediumorchid;
 }
+
+#space {
+  padding-top: 10px;
+  font-size: 22px;
+  padding-bottom: 0;
+}
+
+.contact-form a {
+  text-decoration: none;
+}
